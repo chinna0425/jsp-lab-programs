@@ -17,8 +17,8 @@ public class DBConnection {
 
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/springbootdb",
-                    "root",
-                    "chinna0425");
+                    "username",
+                    "password");
             System.out.println("Database connected successfully");
         } catch (SQLException e) {
             e.printStackTrace();
